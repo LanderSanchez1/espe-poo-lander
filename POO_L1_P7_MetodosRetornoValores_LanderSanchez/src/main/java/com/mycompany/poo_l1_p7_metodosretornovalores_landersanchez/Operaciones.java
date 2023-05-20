@@ -4,12 +4,8 @@
  */
 package com.mycompany.poo_l1_p7_metodosretornovalores_landersanchez;
 
-/**
- *
- * @author User
- */
 public class Operaciones {
-    //Metodo para sumar por retorno ed valores
+    //Metodo para sumar por retorno de valores
     public int sumar(int num1,int num2){
         int suma=num1+num2;
         
@@ -17,7 +13,7 @@ public class Operaciones {
         return suma;
     }
         
-    //creamos un metodo para restar
+    //metodo para restar
     public int restar(int num1,int num2){
         int resta=num1-num2;
         
