@@ -4,12 +4,9 @@
  */
 package com.mycompany.poo_s3_l1_p5_metodosparametrosargumentos;
 
-/**
- *
- * @author User
- */
+
 public class Operaciones {
-    //Se declaran todas las varibles
+    //Declaracion varibles
     int suma,resta,multiplicacion,division;
     
     //Metodo sumar
@@ -32,7 +29,7 @@ public class Operaciones {
         division=num1/num2;
     }
     
-    //Metodo resultado
+    //Resultado
     public void resultado(){
         System.out.println("Resultado de la suma es: "+suma);
         System.out.println("Resultado de la resta es: "+resta);
