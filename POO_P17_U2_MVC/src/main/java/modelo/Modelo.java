@@ -1,10 +1,10 @@
 package modelo;
 
 public class Modelo {
-    
-    private int v1=28;
-    private int v2=69;
-    private int total=sumar();
+
+    private int v1 = 28;
+    private int v2 = 69;
+    private int total = sumar();
     
     public Modelo(){
         
@@ -35,12 +35,25 @@ public class Modelo {
     }
     
     public int sumar() {
-        this.total=this.v1+this.v2;
+        this.total = this.v1 + this.v2;
         return this.total;
     }
     
+    public int restar() {
+        this.total = this.v1 - this.v2;
+        return this.total;
     }
-
+    
+    public int multiplicar() {
+        this.total = this.v1 * this.v2;
+        return this.total;
+    }
+    
+    public double dividir() {
+        this.total = this.v1 / this.v2;
+        return this.total;
+    }
+}
     
     
     

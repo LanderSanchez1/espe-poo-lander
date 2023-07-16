@@ -7,7 +7,6 @@ import vista.Vista;
 public class POO_P17_U2_MVC {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         
         Modelo mod= new Modelo();
         Vista vis=new Vista();
