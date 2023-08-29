@@ -1,0 +1,37 @@
+[{
+    "nombre": "Lander",
+    "apellido": "Sanchez",
+    "edad": 18,
+    "precioAsiento": 100.25,
+    "asiento": {
+        "numero": 8,
+        "letra": "A",
+        "cargador": false
+    },
+
+  "historial": [
+    {
+        "salida": "California",
+        "destino": "NY",
+        "fecha": "22/08/2023"
+    },
+    {
+        "salida": "Madrid",
+        "destino": "Barcelona",
+        "fecha": "12/06/2023"
+    }
+  ]
+},
+{
+    "nombre": "Jair",
+    "apellido": "Rodriguez",
+    "edad": 21,
+    "precioAsiento": 120.22,
+    "asiento": {
+        "numero": 5,
+        "letra": "B",
+        "cargador": true
+    },
+
+  "historial": []
+}]
